@@ -24,7 +24,11 @@ The types created (and aliased) here, namely `N`, `NP` and such, are arbitrary m
 
 The two slash types (fractional types) are left- and right-derivations. They reduce our expressions in some way. For example, `M/N` expects something of type `N` behind it to reduce the whole `M/N N` phrase into just `M`. Similarly, `N N\M` will be reduced to `M` from the left. As a way to remember which slash is which operation, start with the lower end and pull towards the top of the slash -- the direction you're pulling in is where you expect the argument.
 
-The type `1` marks a unit type, and we can use it to check whether a sentence is syntactically well-typed. If it is, it will end up being `1` after all the reductions are done!
+The type `1` marks a unit type, and we can use it to check whether a sentence is syntactically well-typed. If it is, it will end up being `1` after all the reductions are done (or this is at least the goal for how human languages work)! Grammy will accumulate the text from all the parts and add parentheses, so that you can see how the parts were added together. For example, the sentence above ends up actually being a part of the English language, with the following interpretation:
+
+```
+((the (bad boy)) (made (that mess)))
+```
 
 ## Modules
 
