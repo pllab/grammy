@@ -1,0 +1,27 @@
+
+let
+	Noun = N;
+	Adj = N/N;
+	IVerb = NP\1;
+	TVerb = IVerb/NP;
+	Det = NP/N;
+
+	CountNoun = Noun;
+	Adjective = Adj;
+	IntransitiveVerb = IVerb;
+	TransitiveVerb = TVerb;
+	Determiner = Det;
+
+	a: Determiner;
+	the: Determiner;
+	this: Determiner;
+	that: Determiner;
+	good: Adjective;
+	bad: Adjective;
+	made: TransitiveVerb;
+	cleaned: TransitiveVerb;
+	whistled: IntransitiveVerb;
+	boy: CountNoun;
+	girl: CountNoun;
+	mess: CountNoun
+in: module
