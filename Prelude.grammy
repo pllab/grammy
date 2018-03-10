@@ -21,6 +21,7 @@ let
 	made: TransitiveVerb;
 	cleaned: TransitiveVerb;
 	whistled: IntransitiveVerb;
+	whistles: IntransitiveVerb;
 	boy: CountNoun;
 	girl: CountNoun;
 	mess: CountNoun

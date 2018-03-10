@@ -120,3 +120,12 @@ class Interpreter(
 		} else Seq(mark)
 	}
 }
+
+object Interpreter {
+	def apply(s: String) = {
+		val interpreter = new Interpreter()
+		val result = interpreter.eval(Parser(s))
+
+		result
+	}
+}
