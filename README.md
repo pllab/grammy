@@ -1,7 +1,7 @@
 # grammy
 This is a very straight-forward implementation of the concept of [categorial grammars](https://en.wikipedia.org/wiki/Categorial_grammar), and its use in natural language parsing.
 
-The quickest way to see how it works is to go and look at the interpreter tests, but if you're in a hurry, here's an example program below, and what it does in practice. Every Grammy program is a single let-binding with several type-declarations or type-aliases and one sentence which is to be parsed. Currently, this only works from within scala, but a REPL is planned.
+The quickest way to see how it works is to go and look at the interpreter tests, but if you're in a hurry, here's an example program below, and what it does in practice. Every Grammy program is a single let-binding with several type-declarations or type-aliases and one sentence which is to be parsed. A small REPL exists (`sbt run`), in which you can try these things out.
 
 ```
 let
