@@ -39,7 +39,6 @@ Grammy supports header-includes, which can simplify writing. Compare the example
 ```
 let
   with Prelude
-  ...
 in: the bad boy made that mess
 ```
 
